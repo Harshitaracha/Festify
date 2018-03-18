@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/profileicon"
+            android:title="My Profile" />
+
+        <item
+            android:id="@+id/nav_regevents"
+            android:icon="@drawable/registration1"
+            android:title="Registered Events" />
+        <item
+            android:id="@+id/nav_eventupload"
+            android:icon="@drawable/uploadicon"
+            android:title="New Event Upload" />
+        <item
+            android:id="@+id/nav_eventtype"
+            android:icon="@drawable/eventtypeicon"
+            android:title="Event Types" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/flogouticon"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFCC00"
+    tools:context="com.sujakoona6gmail.appfest.FestsFragment">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:background="@drawable/feststab"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+
+        android:id="@+id/user_button"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+
+        android:text="Click to checkout the fests">
+</Button>
+
+
+
+</RelativeLayout>

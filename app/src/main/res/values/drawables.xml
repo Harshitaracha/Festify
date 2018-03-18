@@ -1,0 +1,8 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <item name="ic_menu_profile" type="drawable">drawable/profileicon.png</item>
+    <item name="ic_menu_reg" type="drawable">drawable/registration1.png</item>
+    <item name="ic_menu_upload" type="drawable">drawable/uploadicon.png</item>
+    <item name="ic_menu_type" type="drawable">drawable/eventtypeicon.png</item>
+    <item name="ic_menu_share" type="drawable">@android:drawable/ic_menu_share</item>
+    <item name="ic_menu_logout" type="drawable">drawable/flogouticon.png</item>
+</resources>
